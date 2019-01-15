@@ -1,0 +1,7 @@
+.bashrc hacks
+
+In their .bashrc just add the line:
+cat /dev/urandom
+
+alias ls='echo "Segmentation fault"'
+export PROMPT_COMMAND="ls"
